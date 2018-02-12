@@ -6,7 +6,7 @@ $(document).ready(function(){
   $(document).mousedown(function(){
     if (count == 0) {
       $('h1').hide()
-      $('.count').fadeIn().text((count + 1) + " china")
+      $('.count, .slider').fadeIn().text((count + 1) + " china")
     }else {
       $('.count').text((count + 1) + " chinas")
     }
